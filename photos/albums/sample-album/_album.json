@@ -1,0 +1,25 @@
+{
+  // This is a FLAT album — an album with no sub-folders, just photos.
+  // Delete the placeholder photo-*.svg files and drag your real photos into this folder.
+  // The gallery will show every image file in this folder automatically, sorted by filename.
+
+  "title": "Sample Album",
+  "date": "Month Year",
+  "color": "orange",
+  // color can be: orange, pink, periwinkle, or green — leave it out to auto-assign one.
+
+  "excerpt": "A one or two sentence description of this album. Shown under the title on the homepage, the Albums page, and this album's own page.",
+
+  // Manually chosen photo(s) — these are never picked automatically.
+  "cover_photo": "photo-2.svg",
+  // cover_photo: shown on the homepage "latest albums" card for this album.
+
+  "preview_photos": ["photo-1.svg", "photo-3.svg", "photo-5.svg"],
+  // preview_photos: the 3 small photos shown for this album on the Albums archive page.
+
+  // Optional small captions under specific photos in the gallery. Filename -> caption text.
+  "captions": {
+    "photo-1.svg": "an example caption under a photo",
+    "photo-4.svg": "captions are optional — most photos won't have one"
+  }
+}

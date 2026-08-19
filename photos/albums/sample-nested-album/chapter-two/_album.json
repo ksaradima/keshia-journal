@@ -1,0 +1,6 @@
+{
+  // This folder has sub-folders (part-a, part-b) instead of photos, so it's a "branch" —
+  // like "Italy" containing "Milan" and "Venice". Clicking it in the sidebar shows an
+  // overview grid of its children rather than a photo gallery.
+  "title": "Chapter Two"
+}

@@ -1,0 +1,8 @@
+{
+  // This folder has photos directly inside it, so it's a "leaf" — one gallery page,
+  // shown when someone clicks "chapter one" in the sidebar.
+  "title": "Chapter One",
+  "captions": {
+    "photo-2.svg": "captions work on nested album photos too"
+  }
+}

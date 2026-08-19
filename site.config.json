@@ -1,0 +1,44 @@
+{
+  // Site-wide settings. Re-run "python3 build.py" after editing this file.
+
+  "site_name": "Keshia's Journal",
+
+  // ---- Homepage hero slideshow ----
+  // Manually chosen photos only — nothing here is picked automatically.
+  // "album" is a top-level folder name under photos/albums/.
+  // "photo" is the path to the photo *inside* that album's folder
+  //   (just a filename for a flat album, or e.g. "chapter-one/photo-1.svg" for a nested one).
+  // "label" is optional small text shown in the corner of the slide.
+  "homepage_hero_photos": [
+    { "album": "sample-album", "photo": "photo-2.svg", "label": "an example hero photo" },
+    { "album": "sample-nested-album", "photo": "chapter-one/photo-3.svg" },
+    { "album": "sample-nested-album", "photo": "chapter-two/part-b/photo-2.svg" },
+    { "album": "sample-album", "photo": "photo-6.svg" }
+  ],
+
+  // ---- Homepage "latest albums" ----
+  // Manually chosen and ordered list of album folder names to feature on the homepage.
+  "homepage_albums": ["sample-album", "sample-nested-album"],
+
+  // ---- About page ----
+  "about": {
+    "heading": "hello, I'm Keshia",
+    "paragraph_1": "I got my first point-and-shoot digital camera when I was eight years old and never looked back.",
+    "paragraph_2": "Something about finding the right lines in a frame and watching the light evolve behind a lens just tickles my brain. The same feeling I get from a shot of caffeine, a poignant turn of phrase, or solving a never-before-solved scientific problem (I am a Doctor of Philosophy). You can find pieces of me all over the internet, but my body is usually either on the little red dot known as Singapore or on a plane going back and forth home to Jakarta.",
+    // Optional portrait photo, path relative to the photos/ folder, e.g. "about/portrait.jpg".
+    // Leave as null to show a placeholder block instead.
+    "portrait_photo": null
+  },
+
+  // ---- Social icons on the About page ----
+  // Fill in real URLs whenever you're ready — "#" is just a placeholder.
+  "social_links": [
+    { "name": "Instagram", "url": "#" },
+    { "name": "TikTok", "url": "#" },
+    { "name": "LinkedIn", "url": "#" },
+    { "name": "Goodreads", "url": "#" },
+    { "name": "Letterboxd", "url": "#" },
+    { "name": "Spotify", "url": "#" },
+    { "name": "Google Scholar", "url": "#" }
+  ]
+}

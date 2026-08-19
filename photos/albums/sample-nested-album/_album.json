@@ -1,0 +1,18 @@
+{
+  // This is a NESTED album — it has sub-folders instead of photos directly inside it
+  // (like the "Europe 2025" example: country folders, one of which has city folders inside it).
+  // The site builds a sidebar tree automatically from your folder names — you don't list them here.
+
+  "title": "Sample Nested Album",
+  "date": "Month Year",
+  "color": "periwinkle",
+  "excerpt": "A one or two sentence description of this whole trip/album, shown at the top of the album page.",
+
+  // Manually chosen photos, given as a path from THIS folder down to the photo file.
+  "cover_photo": "chapter-one/photo-1.svg",
+  "preview_photos": [
+    "chapter-one/photo-1.svg",
+    "chapter-two/part-a/photo-1.svg",
+    "chapter-two/part-b/photo-1.svg"
+  ]
+}
